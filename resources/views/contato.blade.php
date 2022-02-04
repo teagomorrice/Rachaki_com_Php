@@ -21,8 +21,8 @@
             <ul>
                 <li><a href="/">Home</a></li>
                 <li><a href="/sobre">Sobre</a></li>
-                <li><a href="/contato">Contato</a></li>
-                <li><a class="pagina-atual" href="/registro">Histórico</a></li>
+                <li><a class="pagina-atual" href="/contato">Contato</a></li>
+                <li><a href="/registro">Histórico</a></li>
             </ul>
         </nav>
     </header>
@@ -31,8 +31,14 @@
         <div class="container">
             <h1 class="cabecalho-form"> <span class="texto-principal">Fale</span> Conosco</h1>
         </div>
+        @if(Session::has('message_sent'))
+            <div class="alert alert-sucess" role="alert">
+                {{Session::get('message_sent')}}
+        @endif        
+            </div>
         <p>Estamos quase lá, por favor, preencha o fomrulario abaixo: </p>
-        <form action="" method="POST">
+        <form method="POST" action="{{route('contact.send')}}"kaua enctype="multipart/form-data">
+            @csrf
             <div class="campos-form">
                 <label for="nome">Nome</label>
                 <input type="text" name="nome" id="nome">

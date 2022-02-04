@@ -19,9 +19,9 @@
             <h1><a href="./principal.html">RachAki</a></h1>
             <ul>
                 <li><a href="/">Home</a></li>
-                <li><a href="/sobre">Sobre</a></li>
+                <li><a class="pagina-atual" href="/sobre">Sobre</a></li>
                 <li><a href="/contato">Contato</a></li>
-                <li><a class="pagina-atual" href="/registro">Histórico</a></li>
+                <li><a href="/registro">Histórico</a></li>
             </ul>
         </nav>
     </header>

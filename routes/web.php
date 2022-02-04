@@ -30,3 +30,7 @@ Route::get('/contato', function () {
 Route::get('/registro', function () {
     return view('registro');
 });
+
+Route::get('/contact-us', [ContactController::class, 'contact']);
+
+Route::post('/send-message', [ContactController::class, 'sendEmail'])->name('contact.send');

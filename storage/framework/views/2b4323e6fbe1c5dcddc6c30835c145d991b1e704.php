@@ -19,9 +19,9 @@
             <h1><a href="./principal.html">RachAki</a></h1>
             <ul>
                 <li><a href="/">Home</a></li>
-                <li><a href="/sobre">Sobre</a></li>
+                <li><a class="pagina-atual" href="/sobre">Sobre</a></li>
                 <li><a href="/contato">Contato</a></li>
-                <li><a class="pagina-atual" href="/registro">Histórico</a></li>
+                <li><a href="/registro">Histórico</a></li>
             </ul>
         </nav>
     </header>
@@ -29,7 +29,7 @@
         <div class="container">
             <div class="info-esquerda">
                 <h1 class="cabecalho-esquerda"><span class="texto-principal"></span>Sobre o RachAki</h1>
-                <p> O site “RachAki” traz uma ideia inovadora de unir pessoas através de jogos localizados na região, permitindo a interação com novas pessoas e a prática de atividades físicas. O usuário poderá criar partidas esportivas de diversos esportes e/ou se juntar a partidas que já existem. Nunca foi tão fácil praticar esportes!</p>
+                <p> O site “RachAki” traz uma ideia inovadora de unir pessoas através de jogos localizados na região, permitindo a interação com novas pessoas e a prática de atividades físicas.</p>
                 <p>Logo abaixo, uma breve descrição dos desenvolvedores do site.
                 </p>
             </div>

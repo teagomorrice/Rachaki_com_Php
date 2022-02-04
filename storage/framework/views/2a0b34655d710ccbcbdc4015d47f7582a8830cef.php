@@ -15,7 +15,7 @@
         <div class="container">
             <div class=showcase-principal>
                 <h1> <span class="texto-principal">RachAki</span></h1>
-                <p class="text-detalhe">Crie partidas de diversos esportes e/ou junte-se a partidas que já existem. Nunca foi tão fácil praticar esportes!</p>
+                <p class="text-detalhe">Crie partidas de diversos esportes e/ou junte-se a partidas que já existem, sem precisar de cadastro. Nunca foi tão fácil praticar esportes!</p>
             </div>
         </div>
     </div>
