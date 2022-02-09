@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ControllerPrincipal;
 use App\Models\Partida;
+use App\Http\Controllers\ContactController;
 
 /*
 |--------------------------------------------------------------------------
@@ -30,7 +31,5 @@ Route::get('/contato', function () {
 Route::get('/registro', function () {
     return view('registro');
 });
-
-Route::get('/contact-us', [ContactController::class, 'contact']);
 
 Route::post('/send-message', [ContactController::class, 'sendEmail'])->name('contact.send');

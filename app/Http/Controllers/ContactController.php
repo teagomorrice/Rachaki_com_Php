@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+Use App\Mail\ContactMail;
 use Mail;
 
 class ContactController extends Controller
@@ -15,7 +16,7 @@ class ContactController extends Controller
     public function sendEmail(Request $request)
     {
         $details = [
-            'name' => $request->name,
+            'name' => $request->nome,
             'email' => $request->email,
             'mensagem' => $request->mensagem
         ];

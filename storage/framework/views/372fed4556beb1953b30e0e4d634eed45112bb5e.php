@@ -38,7 +38,7 @@
         <?php endif; ?>        
             </div>
         <p>Estamos quase lá, por favor, preencha o fomrulario abaixo: </p>
-        <form method="POST" action="<?php echo e(route('contact.send')); ?>" enctype="multipart/form-data">
+        <form method="POST" action="<?php echo e(route('contact.send')); ?>"kaua enctype="multipart/form-data">
             <?php echo csrf_field(); ?>
             <div class="campos-form">
                 <label for="nome">Nome</label>
